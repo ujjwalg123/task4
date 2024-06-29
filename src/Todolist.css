@@ -1,0 +1,48 @@
+.todo-list {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  input {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li.completed span {
+    text-decoration: line-through;
+    color: #18c11b;
+  }
+  
+  li span {
+    cursor: pointer;
+  }
+  
+  li button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
